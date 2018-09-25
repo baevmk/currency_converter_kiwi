@@ -13,12 +13,12 @@ pip install flask forex-python
 ```
 
 ## Usage
-###API request
+### API request
 ```rest
 http://127.0.0.1:5000/currency_converter?amount=<float>&input_currency=<3 letter currency code or symbol>&output_currency=<3 letter currency code or symbol>
 ```
 
-###CLI request
+### CLI request
 ```bash
 python currency_converter.py --amount <float> --input_currency <3 letter currency code or symbol> --output_currency <3 letter currency code or symbol>
 ```
@@ -29,7 +29,7 @@ Parameters
 
 CLI currency_converter.py and web API applications return json with following structure:
 
-```json
+```
 {
     "input": { 
         "amount": <float>,
